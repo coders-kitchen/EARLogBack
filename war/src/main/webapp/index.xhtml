@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="http://java.sun.com/jsf/html">
+<head>
+    <title>Hi!</title>
+</head>
+<body>
+<h1><h:outputText value="#{dummy.hello}"/></h1>
+      <h:dataTable var="r" value="#{dummy.classpaths}">
+          <h:column><h:outputText value="#{r}"/></h:column>
+      </h:dataTable>
+</body>
+</html>
+
